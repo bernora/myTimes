@@ -1,6 +1,6 @@
 
-html {
-
+h3 {
+display: block;
 }
 
 /* Header styling*/
@@ -49,41 +49,51 @@ nav span, a {
 /* Main container styling*/
 
 .mainContainer div, h2, h3, p, nav, h4 {
-      border: 1px solid red;
+
 }
 
 .mainContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin: 0 auto;
+    justify-content: space-between;
 }
 
 .column {
   display: flex;
   flex-direction: column;
-  align-content: center
-  margin-right: 20px;
+  align-content: space-between;
+  justify-content: flex-start;
+  margin: 1%;
+
 }
 
 .row {
   display: flex;
   flex-direction: row;
+    justify-content: space-between;
+}
+
+.article {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .leftColumn {
-  min-width: 630px;
+  min-width: 49%;
 }
 
 .middleColumn {
-    min-width: 300px;
+    min-width: 23%;
 }
 
 .rightColumn {
-  min-width: 240px;
+  min-width: 20%;
 }
 
-.miniRow div {
-  width: 50%;
+.halfColumn{
+  width: 48%;
 }
 
 .sideNav {
@@ -96,18 +106,31 @@ nav span, a {
 
 }
 
-.picuteHeadline {
-
+.pictureHeadline {
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
-.hero h3 {
+
+.hero {
   background-image: url("../img-story-main.png");
+  font-size: 40px;
 }
 
-.earth h3 {
+.earth {
   background-image: url("../img-story-2.png");
 }
 
+.camera {
+  background-image: url("../img-story-3.png");
+}
+
+.cat {
+  background-image: url("../img-story-1.png");
+}
 
 .textHeadline {
 
