@@ -1,3 +1,10 @@
+
+html {
+
+}
+
+/* Header styling*/
+
 .header {
   display: flex;
   width: 100%;
@@ -23,7 +30,7 @@
   color: MediumAquamarine;
 }
 
-nav {
+.header nav {
   display: flex;
   min-width: 50%;
   margin-left: auto;
@@ -37,4 +44,71 @@ nav span, a {
   flex-basis: 60px;
   text-align: center;
   color: black;
+}
+
+/* Main container styling*/
+
+.mainContainer div, h2, h3, p, nav, h4 {
+      border: 1px solid red;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-content: center
+  margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftColumn {
+  min-width: 630px;
+}
+
+.middleColumn {
+    min-width: 300px;
+}
+
+.rightColumn {
+  min-width: 240px;
+}
+
+.miniRow div {
+  width: 50%;
+}
+
+.sideNav {
+   align-items: center;
+   justify-content: center;
+}
+
+.sideNav h4, a{
+  margin: 0;
+
+}
+
+.picuteHeadline {
+
+}
+
+.hero h3 {
+  background-image: url("../img-story-main.png");
+}
+
+.earth h3 {
+  background-image: url("../img-story-2.png");
+}
+
+
+.textHeadline {
+
 }
